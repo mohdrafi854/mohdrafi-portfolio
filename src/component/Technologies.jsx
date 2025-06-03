@@ -1,34 +1,35 @@
 const Technologies = () => {
   return (
-    <section className="sec-03 py-5 bg-light">
+    <section className="sec-03 py-5">
       <div className="container">
-        <h2 className="text-center mb-5">Technologies</h2>
-        <div className="row text-center">
+        <h2 className="mb-2 display-4 fw-bold">Technology Stack</h2>
+        <h5 className="mb-5">Tech Stack I Specialize In</h5>
+        <div className="row">
           <div className="col-md-4 mb-4">
             <ul className="list-unstyled">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Bootstrap</li>
-              <li>Git</li>
+              <li className="mb-4">HTML</li>
+              <li className="mb-4">CSS</li>
+              <li className="mb-4">JavaScript</li>
+              <li className="mb-4">Bootstrap</li>
+              <li className="mb-4">Git</li>
             </ul>
           </div>
           <div className="col-md-4 mb-4">
             <ul className="list-unstyled">
-              <li>React</li>
-              <li>Redux</li>
-              <li>Tailwind CSS</li>
-              <li>TypeScript</li>
-              <li>REST APIs</li>
+              <li className="mb-4">React</li>
+              <li className="mb-4">Redux</li>
+              <li className="mb-4">Tailwind CSS</li>
+              <li className="mb-4">TypeScript</li>
+              <li className="mb-4">REST APIs</li>
             </ul>
           </div>
           <div className="col-md-4 mb-4">
             <ul className="list-unstyled">
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>SQL</li>
-              <li>JWT Auth</li>
+              <li className="mb-4">Node.js</li>
+              <li className="mb-4">Express.js</li>
+              <li className="mb-4">MongoDB</li>
+              <li className="mb-4">SQL</li>
+              <li className="mb-4">JWT Auth</li>
             </ul>
           </div>
         </div>
