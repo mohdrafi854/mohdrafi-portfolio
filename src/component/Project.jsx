@@ -9,7 +9,7 @@ const Project = () => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div className="col">
             <div className="card h-100 card-custom">
-              <img src="output.jpg" height={224} alt="" />
+              <img src="eshop-img.png" height={224} alt="" />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title h4">Ecommerce App</h3>
                 <p className="card-text">
@@ -18,22 +18,22 @@ const Project = () => {
                   and users through a dedicated dashboard.
                 </p>
                 <div className="mb-3">
-                  <span class="badge bg-secondary me-1">MongoDB</span>
-                  <span class="badge bg-secondary me-1">Express</span>
-                  <span class="badge bg-secondary me-1">React</span>
-                  <span class="badge bg-secondary me-1">Node.js</span>
+                  <span className="badge bg-secondary me-1">MongoDB</span>
+                  <span className="badge bg-secondary me-1">Express</span>
+                  <span className="badge bg-secondary me-1">React</span>
+                  <span className="badge bg-secondary me-1">Node.js</span>
                 </div>
                 <div>
                   <a
                     href="https://internetshopping.vercel.app"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-primary btn-sm me-2"
                   >
                     View Demo
                   </a>
                   <a
                     href="https://github.com/mohdrafi854/Ecommerce-Frontend"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-outline-secondary btn-sm"
                   >
                     Source Code
@@ -44,7 +44,7 @@ const Project = () => {
           </div>
           <div className="col">
             <div className="card h-100 card-custom">
-              <img src="meetup-app-img.jpg" height={224} alt="" />
+              <img src="meetup-app-img.png" height={224} alt="" />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title h4">Meetup App</h3>
                 <p className="card-text">
@@ -54,22 +54,22 @@ const Project = () => {
                   online/offline, and view detailed event.
                 </p>
                 <div className="mb-3">
-                  <span class="badge bg-secondary me-1">MongoDB</span>
-                  <span class="badge bg-secondary me-1">Express</span>
-                  <span class="badge bg-secondary me-1">React</span>
-                  <span class="badge bg-secondary me-1">Node.js</span>
+                  <span className="badge bg-secondary me-1">MongoDB</span>
+                  <span className="badge bg-secondary me-1">Express</span>
+                  <span className="badge bg-secondary me-1">React</span>
+                  <span className="badge bg-secondary me-1">Node.js</span>
                 </div>
                 <div>
                   <a
                     href="https://meetup-event.vercel.app/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-primary me-2 btn-sm"
                   >
                     View Demo
                   </a>
                   <a
                     href="https://github.com/mohdrafi854/meetupAppFrontend"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-outline-secondary btn-sm"
                   >
                     Source Code
@@ -80,7 +80,7 @@ const Project = () => {
           </div>
           <div className="col">
             <div className="card h-100 shadow-sm card-custom">
-              <img src="lead-management-img.jpg" height={224} alt="" />
+              <img src="lead-management-img.png" height={224} alt="" />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title h4">Anvaya CRM App</h3>
                 <p className="card-text">
@@ -90,22 +90,22 @@ const Project = () => {
                   lead.
                 </p>
                 <div className="mb-3">
-                  <span class="badge bg-secondary me-1">MongoDB</span>
-                  <span class="badge bg-secondary me-1">Express</span>
-                  <span class="badge bg-secondary me-1">React</span>
-                  <span class="badge bg-secondary me-1">Node.js</span>
+                  <span className="badge bg-secondary me-1">MongoDB</span>
+                  <span className="badge bg-secondary me-1">Express</span>
+                  <span className="badge bg-secondary me-1">React</span>
+                  <span className="badge bg-secondary me-1">Node.js</span>
                 </div>
                 <div>
                   <a
                     href="https://anvayafrontend.vercel.app"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-primary me-2 btn-sm"
                   >
                     View Demo
                   </a>
                   <a
                     href="https://github.com/mohdrafi854/anvaya-crm-frontend"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-outline-secondary btn-sm"
                   >
                     Source Code
@@ -116,7 +116,7 @@ const Project = () => {
           </div>
           <div className="col">
             <div className="card h-100 card-custom">
-              <img src="task-img.jpg" height={224} alt="" />
+              <img src="task-img.png" height={224} alt="" />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title h4">Workasana Task App</h3>
                 <p className="card-text">
@@ -126,22 +126,22 @@ const Project = () => {
                   supports authentication, dynamic filtering.
                 </p>
                 <div className="mb-3">
-                  <span class="badge bg-secondary me-1">MongoDB</span>
-                  <span class="badge bg-secondary me-1">Express</span>
-                  <span class="badge bg-secondary me-1">React</span>
-                  <span class="badge bg-secondary me-1">Node.js</span>
+                  <span className="badge bg-secondary me-1">MongoDB</span>
+                  <span className="badge bg-secondary me-1">Express</span>
+                  <span className="badge bg-secondary me-1">React</span>
+                  <span className="badge bg-secondary me-1">Node.js</span>
                 </div>
                 <div>
                   <a
                     href="https://workasana-task.vercel.app"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-primary me-2 btn-sm"
                   >
                     View Demo
                   </a>
                   <a
                     href="https://github.com/mohdrafi854/Workasana-frontend"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="btn btn-outline-secondary btn-sm"
                   >
                     Source Code

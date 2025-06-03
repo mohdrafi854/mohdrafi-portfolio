@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="p-5 mb-4" id="hero">
+    <div className="p-3 p-md-5 mb-4" id="hero">
       <div className="container py-5">
         <h1 className="display-2 fw-bold">Mohd Rafi</h1>
         <h4 className="h4 ">Fullstack Dev</h4>
@@ -13,10 +13,10 @@ function Hero() {
           React, <br />
           Node.js, and MongoDB, with a strong emphasis on user experience.
         </p>
-        <a href="#connect" class="btn btn-primary">
+        <a href="#connect" className="btn btn-primary">
           Get in Touch
         </a>
-        <a href="/resume.pdf" target="_blank" class="btn btn-outline-secondary ms-3" download>
+        <a href="/resume.pdf" target="_blank" className="btn btn-outline-secondary ms-3" download>
           Download Resume
         </a>
       </div>

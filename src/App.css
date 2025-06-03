@@ -8,6 +8,7 @@ body {
   background-color: #182634;
   color: #90accb;
   border-color: #314c68;
+  overflow: hidden;
 }
 .card-custom img{
   object-fit: cover;
@@ -21,4 +22,8 @@ body {
 .bg-secondary{
   background-color: #333e4a !important;
   font-weight: 500 !important;
+}
+.conatct-text, .conatct-text a{
+  text-decoration: none;
+  color: #90accb;
 }

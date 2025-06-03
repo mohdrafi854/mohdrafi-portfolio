@@ -5,7 +5,7 @@ const Technologies = () => {
         <h2 className="mb-2 display-4 fw-bold">Technology Stack</h2>
         <h5 className="mb-5">Tech Stack I Specialize In</h5>
         <div className="row">
-          <div className="col-md-4 mb-4">
+          <div className="col-6 col-md-4 mb-4">
             <ul className="list-unstyled">
               <li className="mb-4">HTML</li>
               <li className="mb-4">CSS</li>
@@ -14,7 +14,7 @@ const Technologies = () => {
               <li className="mb-4">Git</li>
             </ul>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-6 col-md-4 mb-4">
             <ul className="list-unstyled">
               <li className="mb-4">React</li>
               <li className="mb-4">Redux</li>
@@ -23,7 +23,7 @@ const Technologies = () => {
               <li className="mb-4">REST APIs</li>
             </ul>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-6 col-md-4 mb-4">
             <ul className="list-unstyled">
               <li className="mb-4">Node.js</li>
               <li className="mb-4">Express.js</li>
