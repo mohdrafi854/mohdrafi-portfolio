@@ -1,0 +1,10 @@
+<svg width="300" height="300" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- No background rectangle for full transparency -->
+  <path d="M20 24H44C45.1 24 46 24.9 46 26V46C46 47.1 45.1 48 44 48H20C18.9 48 18 47.1 18 46V26C18 24.9 18.9 24 20 24Z" fill="#ffffff" stroke="#cccccc" stroke-width="1"></path>
+  <path d="M24 20C24 17.79 25.79 16 28 16H36C38.21 16 40 17.79 40 20V24H24V20Z" fill="#f0f0f0"></path>
+  <path d="M30 32H34V36H30V32Z" fill="#e0e0e0"></path>
+  <path d="M30 38H34V42H30V38Z" fill="#e0e0e0"></path>
+  <circle cx="24" cy="52" r="3" fill="#d0d0d0"></circle>
+  <circle cx="40" cy="52" r="3" fill="#d0d0d0"></circle>
+  <path d="M18 26L12 12H8" stroke="#888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
