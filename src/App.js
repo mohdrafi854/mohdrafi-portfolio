@@ -1,20 +1,22 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router";
 
-import Hero from "./component/Hero";
-import Project from "./component/Project";
-import Technologies from "./component/Technologies";
-import Contact from "./component/Contact";
-import Footer from "./component/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./App.css";
+import Header from "./component/Header";
+import Blogs from "./component/Blogs";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Project/>
-      <Technologies />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path={"/blog"} element={<Blogs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

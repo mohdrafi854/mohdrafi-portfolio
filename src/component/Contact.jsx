@@ -13,7 +13,7 @@ const Contact = () => {
                 <h5 className="card-title">Email</h5>
                 </div>
                 <p className="conatct-text">
-                  <a href="mailto:mohd.rafi854@gmail.com" rel="noreferrer">mohd.rafi854@gmail.com</a>
+                 <a href="mailto:mohd.rafi854@gmail.com">mohd.rafi854@gmail.com</a>
                 </p>
               </div>
             </div>
