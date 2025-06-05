@@ -16,7 +16,7 @@ function Hero() {
         <a href="#connect" className="btn btn-primary">
           Get in Touch
         </a>
-        <a href="/resume.pdf" target="_blank" className="btn btn-outline-secondary ms-3" download>
+        <a href="/MohdRafi_Resume.pdf" target="_blank" className="btn btn-outline-secondary ms-3" download>
           Download Resume
         </a>
       </div>
