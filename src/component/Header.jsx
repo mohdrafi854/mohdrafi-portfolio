@@ -23,7 +23,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link" to={"/blog"}>
+                <Link className="nav-link" target="_blank" to={"https://dev.to/mohd_rafi_854/whats-the-difference-between-sql-vs-nosql-databases-20m9"}>
                   Blog
                 </Link>
               </li>

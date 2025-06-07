@@ -17,8 +17,7 @@ const Blogs = () => {
 
         <p>
           This article breaks down the core differences between SQL and NoSQL
-          databases, compares their strengths, and helps you decide which one
-          suits your use case best.
+          databases, compares their strengths, and helps you decide which one best suits your use case.
         </p>
 
         
@@ -152,7 +151,7 @@ const Blogs = () => {
           </li>
           <li className="mb-1">
             <strong>Optimized for Big Data & Real-time Apps</strong>: Ideal for
-            analytics, streaming, IoT.
+            analytics, real-time streaming, or IoT data..
           </li>
           <li>
             <strong>Variety of Models</strong>: Choose based on specific needs
@@ -207,7 +206,7 @@ const Blogs = () => {
           <li>Social networks and messaging apps</li>
         </ul>
 
-        <h2 className="h4 mt-4 mb-0">Real-world Example: SQL vs NoSQL in Action</h2>
+        <h2 className="h4 mt-4 mb-0">SQL vs NoSQL: Practical Use Cases Compared</h2>
         <hr className="mt-1" />
 
         <table className="table table-bordered">
@@ -262,8 +261,7 @@ const Blogs = () => {
         <hr className="mt-1" />
         <p>
           The SQL vs NoSQL debate is not about choosing a "better" technology —
-          it’s about choosing the
-          <strong>right tool for your specific needs</strong>.
+          it’s about choosing the <strong>right tool for your specific needs</strong>.
         </p>
 
         <blockquote>
@@ -278,47 +276,6 @@ const Blogs = () => {
           Evaluate your application's requirements — data type, traffic volume,
           scalability needs — and then decide.
         </p>
-        {/* <hr className="mb-5" />
-      <h2 className="h3 mb-0">SQL Databases</h2>
-      <hr className="mb-4" />
-      <p>
-        SQL databases are relational, meaning data is stored in tables with
-        predefined schemas (rows and columns).
-      </p>
-      <p>
-        <strong>Popular examples:</strong> MySQL, PostgreSQL, Oracle, Microsoft
-        SQL Server.
-      </p>
-
-      <p>
-        <strong>Pros:</strong>
-      </p>
-      <ul>
-        <li>Ideal for complex queries and relationships</li>
-        <li>
-          SQL is widely understood and supported; most developers know it well.
-        </li>
-        <li>SQL is well-documented and easy to learn.</li>
-      </ul>
-
-      <h2 className="h3 mt-5 mb-0">NoSQL Databases</h2>
-      <hr />
-      <p>
-        NoSQL databases are non-relational, and store data in flexible formats
-        like documents, key-value pairs, wide-columns, or graphs.
-      </p>
-      <p>
-        <strong>Popular examples:</strong> MongoDB, Firebase, Cassandra, Redis.
-      </p>
-
-      <p>
-        <strong>Pros:</strong>
-      </p>
-      <ul>
-        <li>Flexible schema</li>
-        <li>Handles large volumes of unstructured or semi-structured data</li>
-        <li>Scales easily horizontally</li>
-      </ul> */}
       </div>
     </>
   );
