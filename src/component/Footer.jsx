@@ -1,6 +1,9 @@
+import { Element } from "react-scroll";
+
 const Footer = () => {
   return (
     <>
+    <Element name="footer">
       <hr />
       <footer className="text-center py-5">
         <p className="mb-3">
@@ -26,6 +29,7 @@ const Footer = () => {
           <i className="bi bi-arrow-up"></i>
         </a>
       </div>
+    </Element>
     </>
   );
 };

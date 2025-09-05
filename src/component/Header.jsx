@@ -1,6 +1,29 @@
-import { Link } from "react-router";
+import { Link } from "react-scroll";
 
 const Header = () => {
+  const navData = [
+    {
+      navText: "Home",
+      className: ["nav-link", "d-md-none"],
+      secId:"home"
+    },
+    {
+      navText: "Projects",
+      className: ["nav-link", "d-md-none"],
+      secId:"project"
+    },
+    {
+      navText: "Technology",
+      className: ["nav-link", "d-md-none"],
+      secId:"technology"
+    },
+    {
+      navText: "Contact",
+      className: ["nav-link", "d-md-none"],
+      secId:"contact"
+      
+    }
+  ];
   return (
     <header>
       <nav className="navbar navbar-expand-lg sticky-lg-top border-bottom border-dark-subtle">
@@ -22,26 +45,24 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
+              {
+                navData.map((item, index) => (
+                  <li key={index}>
+                    <Link className={item.className.join(" ")} to={item.secId} smooth={true} duration={500}>{item.navText}</Link>
+                  </li>
+                ))
+              }
               <li className="nav-item">
-                <Link className="nav-link" target="_blank" to={"https://dev.to/mohd_rafi_854/whats-the-difference-between-sql-vs-nosql-databases-20m9"}>
+                <Link
+                  className="nav-link"
+                  target="_blank"
+                  to={
+                    "https://dev.to/mohd_rafi_854/whats-the-difference-between-sql-vs-nosql-databases-20m9"
+                  }
+                >
                   Blog
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true" href="/">
-                  Disabled
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
