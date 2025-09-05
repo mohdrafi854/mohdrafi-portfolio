@@ -4,22 +4,22 @@ const Header = () => {
   const navData = [
     {
       navText: "Home",
-      className: ["nav-link", "d-md-none"],
+      className: "nav-link",
       secId:"home"
     },
     {
       navText: "Projects",
-      className: ["nav-link", "d-md-none"],
+      className: "nav-link",
       secId:"project"
     },
     {
       navText: "Technology",
-      className: ["nav-link", "d-md-none"],
+      className: "nav-link",
       secId:"technology"
     },
     {
       navText: "Contact",
-      className: ["nav-link", "d-md-none"],
+      className: "nav-link",
       secId:"contact"
       
     }
@@ -48,7 +48,7 @@ const Header = () => {
               {
                 navData.map((item, index) => (
                   <li key={index}>
-                    <Link className={item.className.join(" ")} to={item.secId} smooth={true} duration={500}>{item.navText}</Link>
+                    <Link className={item.className} to={item.secId} smooth={true} duration={500}>{item.navText}</Link>
                   </li>
                 ))
               }
